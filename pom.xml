@@ -16,7 +16,7 @@
         <spring.security.version>5.1.5.RELEASE</spring.security.version>
         <spring.version>5.1.7.RELEASE</spring.version>
         <spring.cloud.version>2.1.1.RELEASE</spring.cloud.version>
-        <tomcat.embed.version>9.0.21</tomcat.embed.version>
+        <tomcat.embed.version>9.0.31</tomcat.embed.version>
         <jacoco.maven.plugin.version>0.8.2</jacoco.maven.plugin.version>
         <skipIT-tests>true</skipIT-tests>
     </properties>
