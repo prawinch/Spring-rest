@@ -14,8 +14,9 @@ public class MessageController {
     @GetMapping(value = "/compute", produces = "application/json")
     public String greeting(@RequestParam String input) {
         String returnValue = StringUtils.reverse(input);
-        logger.info("Received input : {} and the return value is {}", input, returnValue);
-        return returnValue;
+        String message = String.format("Entered text is : %s and the return value is %s", input, returnValue);
+        logger.info(message);
+        return message;
     }
 
     @GetMapping(value = "/", produces = "application/json")
